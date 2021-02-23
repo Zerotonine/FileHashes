@@ -1,0 +1,28 @@
+﻿<Window x:Class="FileHashes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FileHashes"
+        mc:Ignorable="d"
+        Title="FileHashes" Height="200" Width="550" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="ToolWindow">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <TextBox x:Name="txtPath" Text="Drop File here!" VerticalAlignment="Center" Margin="15" IsEnabled="True" AllowDrop="True" Drop="txtPath_Drop" PreviewDragOver="txtPath_PreviewDragOver" />
+
+        <StackPanel Grid.Row="1">
+            <TextBlock x:Name="tbMD5" Text="MD5: " VerticalAlignment="Center" Margin="15, 10, 15, 0"/>
+            <TextBox Text="paste hash to compare to here" x:Name="txtMD5" VerticalAlignment="Center" Margin="15, 0,15,0" GotFocus="txtMD5_GotFocus" TextChanged="txtMD5_TextChanged" />
+        </StackPanel>
+
+        <StackPanel Grid.Row="2">
+            <TextBlock x:Name="tbSHA256" Text="SHA256: " VerticalAlignment="Center" Margin="15, 10, 15, 0" />
+            <TextBox Text="paste hash to compare to here" x:Name="txtSHA256" VerticalAlignment="Center" Margin="15, 0,15,0" GotFocus="txtSHA256_GotFocus" TextChanged="txtSHA256_TextChanged" />
+        </StackPanel>
+    </Grid>
+</Window>

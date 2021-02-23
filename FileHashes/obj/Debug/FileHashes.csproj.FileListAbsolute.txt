@@ -1,0 +1,15 @@
+C:\Users\Phil\source\repos\FileHashes\FileHashes\bin\Debug\FileHashes.exe.config
+C:\Users\Phil\source\repos\FileHashes\FileHashes\bin\Debug\FileHashes.exe
+C:\Users\Phil\source\repos\FileHashes\FileHashes\bin\Debug\FileHashes.pdb
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.csprojAssemblyReference.cache
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\MainWindow.g.cs
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\App.g.cs
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes_MarkupCompile.cache
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes_MarkupCompile.lref
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\MainWindow.baml
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.g.resources
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.Properties.Resources.resources
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.csproj.GenerateResource.cache
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.csproj.CoreCompileInputs.cache
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.exe
+C:\Users\Phil\source\repos\FileHashes\FileHashes\obj\Debug\FileHashes.pdb
